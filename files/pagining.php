@@ -106,7 +106,7 @@ require_once('admin_home_header.php');
 		echo '<td>' . mysql_result($result, $i, 'email') . '</td>';
 		echo '<td>' . mysql_result($result, $i, 'role') . '</td>';
 		echo '<td>' . mysql_result($result, $i, 'phone') . '</td>';
-		echo '<td><a href="pagining.php?edit.php?id=' . mysql_result($result, $i, 'id') . '">Edit</a></td>';
+		echo '<td><a href="edit.php?id=' . mysql_result($result, $i, 'id') . '">Edit</a></td>';
 		echo '<td><a href="delete.php?id=' . mysql_result($result, $i, 'id') . '">Delete</a></td>';
 		echo "</tr>"; 
 	}

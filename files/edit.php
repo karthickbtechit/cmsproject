@@ -27,7 +27,7 @@
  <div>
  <p><strong>ID:</strong> <?php echo $id; ?></p>
  <strong>First Name: *</strong> <input type="text" name="firstname" value="<?php echo $firstname; ?>"/><br/>
- <strong>Last Name: *</strong> <input type="text" name="lastname" value="<?php echo $lastname; ?>"/><br/>
+ <strong>Dumi for test *</strong> <input type="text" name="lastname" value="<?php echo $lastname; ?>"/><br/>
  <p>* Required</p>
  <input type="submit" name="submit" value="Submit">
  </div>
